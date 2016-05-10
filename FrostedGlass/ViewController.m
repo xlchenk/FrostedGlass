@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
     [super viewDidLoad];
     UIImage * tempImage = [UIImage imageNamed:@"page1"];
     self.view.backgroundColor = [UIColor lightGrayColor];
@@ -25,6 +25,11 @@
     imageView.image = img;
     [self.view addSubview:imageView];
  
+    
+    
+    
+    
+    
     //[self createImageOption];
 
 }
